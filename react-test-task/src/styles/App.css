@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: aliceblue;
+  color: #FFF;
+  justify-content: end;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin: 25px;
+}
+
+.card {
+  padding: 10px;
+  background: antiquewhite;
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.color_circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+}
+
+.bottom_card {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.select_color {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.select_color div {
+  cursor: pointer;
+  box-shadow: 0 0 10px;
+}
+
+.select_color div:hover {
+  box-shadow: none;
+}
+
+.actual_size {
+  display: inline-flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.options_card {
+  display: grid;
+  gap: 15px;
+}
+
+.label_size {
+  padding: 10px;
+  background: aliceblue;
+  margin: 10px;
+  border-radius: 10px;
+  width: max-content;
+  box-shadow: 0 0 10px;
+  cursor: pointer;
+}
+
+.label_size:hover {
+  box-shadow: none;
+}
+
+.all_sizes {
+  display: flex;
+}
+
+.blur {
+  cursor: no-drop;
+  box-shadow: none;
+}
